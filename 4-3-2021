@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Scanner_test{
+public static void main(String args[]) throws Exception
+{
+      String getbr;
+      double V_area,S_area,r,pi=3.14159;
+	  Scanner scanner = new Scanner(System.in);
+	  
+      System.out.print("please input the R:");
+	 
+      r= scanner.nextInt();
+      V_area=4/3.0*pi*r*r*r;
+	  S_area=4*pi*r*r;
+	  
+      System.out.println("Volume:"+V_area);
+	  System.out.println("args:"+S_area);
+}
+}
